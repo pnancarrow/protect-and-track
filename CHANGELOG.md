@@ -7,15 +7,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased](https://github.com/virtru/protect-and-track/compare/master...HEAD)
 
+## [v1.2.3](https://github.com/virtru/protect-and-track/compare/v1.2.2...v1.2.3) - 2020-02-19
+
+- [PLAT-261](https://github.com/virtru/protect-and-track/pull/149): _patch_
+  - Allow selecting between current and lts versions of virtru-sdk via the zver query parameter
+- [PLAT-261](https://github.com/virtru/protect-and-track/pull/146): _patch_
+  - Target backend based on host:
+    - [production](https://demos.developer.virtru.com/protect/) targets prod
+    - [staging](https://demos.developer.virtru.com/protect-staging/) targets staging
+    - [develop](https://demos.developer.virtru.com/protect-develop/) targets dev01
+- [NO-REF](https://github.com/virtru/protect-and-track/pull/147): _patch_
+  - Defaults SDK version to 2.0.0 (the current beta)
+
 ## [v1.2.2](https://github.com/virtru/protect-and-track/compare/v1.2.1...v1.2.2) - 2020-02-12
 
-- [NOREF](https://github.com/virtru/protect-and-track/pull/144): _minor_
+- [NOREF](https://github.com/virtru/protect-and-track/pull/144): _patch_
   - Fixed bug in sample file dragging
   - Update react-scripts to 3.2.0
 
 ## [v1.2.1](https://github.com/virtru/protect-and-track/compare/v1.2.0...v1.2.1) - 2019-08-06
 
-- [NOREF](https://github.com/virtru/protect-and-track/pull/119): _minor_
+- [NOREF](https://github.com/virtru/protect-and-track/pull/119): _patch_
   - modified license section of readme
 
 ## [v1.2.0](https://github.com/virtru/protect-and-track/compare/v1.1.1...v1.2.0) - 2019-08-06
