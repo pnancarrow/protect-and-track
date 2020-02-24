@@ -72,7 +72,7 @@ steps:
 
   - wait
 
-  - label: ':gear: :rocket: production'
+  - label: ':gear: :rocket: production [blocked]'
     commands:
       - buildkite-agent pipeline upload .buildkite/ci.yml
     env:
